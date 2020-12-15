@@ -2,7 +2,7 @@
 #
 # The MIT License (MIT)
 #
-# Copyright (c) 2016-2019 yutiansut/QUANTAXIS
+# Copyright (c) 2016-2020 yutiansut/QUANTAXIS
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@ class QA_MultiLevel(self):
         self.data = data
         self.level_data = {
             FREQUENCE.TICK: None,
-            FREQUENCE.REALTIME_MIN: None
+            FREQUENCE.REALTIME_MIN: None,
             FREQUENCE.REALTIME: None,
             FREQUENCE.ONE_MIN: None,
             FREQUENCE.FIVE_MIN: None,
